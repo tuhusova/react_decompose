@@ -1,8 +1,8 @@
 import React from 'react';
-import './components/Page/Page.css';
-import Welcome from './components/Welcome/Welcome.jsx';
-import Header from './components/Header/Header.jsx';
-import Article from './components/Article/Article.jsx';
+import './components/Page/Page.scss';
+import Welcome from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 // Move each BEM block to a separate component (file) and import them here
 
 function App() {
@@ -16,3 +16,4 @@ function App() {
 }
 
 export default App;
+
